@@ -35,6 +35,10 @@ header {
   background-color: #0f0e17;
 }
 
+body {
+  background-color: #0f0e17;
+}
+
 .logo {
   font-family: "Zen Dots", sans-serif;
   color: #fffffe;
@@ -46,12 +50,13 @@ header {
   display: flex;
   align-items: center;
   font-size: 2vw;
+  font-family: "Zen Dots", sans-serif;
 }
 
 a:link{
   margin: 1vw;
   padding-right: 3vw;
-  font-family: "Zen Dots", sans-serif;
+
   color: #fffffe;
   text-decoration: none;
 }
@@ -104,3 +109,4 @@ h2 {
   padding: 2vw;
   padding-top: 42%;
 }
+

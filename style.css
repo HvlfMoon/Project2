@@ -116,18 +116,20 @@ h2 {
   font-size: 1.5vw;
   padding-left: 2vw;
   padding-top: 2vw;
+  height: 20vw;
 }
 
 .InThis {
   font-size: 3vw;
-  Font-weight: 300;
+  Font-weight: 400;
   font-style: italic;
   margin: 1vw;
 }
 
 .JumpTo {
   display: flex;
-  flex-direction: columns;
+  flex-direction: column;
   font-size: 2vw;
-  
+  padding-left: 1vw;
+  text-decoration: underline;
 }

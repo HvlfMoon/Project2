@@ -32,15 +32,14 @@
    <body>
       <!-- Navbar and Logo --!>
       <header>
-         <nav>
-            <p class="logo"> NASA SPINOFF</p>
-            <ul class="navbar">
-               <li> <a href="#">Home</a>
-               <li> <a href="#">About</a>
-               <li> <a href="#">Archive</a>
-            </ul>
-         </nav>
-      </header>
+         <div class="logo">
+            <p>NASA SPINOFF</p>
+         </div>
+         <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Archive</a>
+      </header>   
       <main>
       
 <!--Main title and Subtitle--!>
@@ -51,22 +50,22 @@
    
       
       <!-- Article Nav --!>
-            <div class="ArticleNav">
-               <h4 class="InThisArtcle"> In This Article...</h4>
-         <nav>
-               <a href="#TheAquanaut">The Aquanaut</a>
-               <a href="#CuttingTheCord">Cutting The Cord</a>
-               <a href="#AFloatingFactotum">A Floating Factotum</a>
-      `  <nav/>
-            </div>
 
+      <div class="ArticleNav">
+         <div class="InThis"> 
+            <p> In This Article:</p>
+         <nav class="JumpTo"> 
+            <a href="#TheAquanaut">The Aquanaut</a>
+            <a href="#CuttingTheCord">Cutting The Cord</a>
+            <a href="#AFloatingFactotum">A Floating Factotum</a>
       <!--Article--!>
 
       <div class="aquanaut2">
                <img src="https://laughingsquid.com/wp-content/uploads/2019/07/Aquanaut.jpg?w=768"
                   alt= "NASA Aquanaut Robot waving" width="50%" height="100%">
       </div>
-      
+
+      <section id="TheAquanaut">
          <h4> The Aquanaut </h4>
             <p>
                What’s the difference between deep space and the deep sea? For a robot, the answer is: not much. 

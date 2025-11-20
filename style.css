@@ -140,3 +140,21 @@ h2 {
   text-decoration: underline;
 }
 
+.pullquote {
+  font-size: 3rem;
+  padding: 7vw;
+  line-height: 4rem;
+  
+}
+
+.Image1 {
+  float: right;
+  width: 40vw;
+  height: 50vh;
+  margin: 1vw
+}
+
+p {
+  line-height: 1.5rem;
+  margin: 2vw;
+}

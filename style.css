@@ -42,12 +42,30 @@ header {
   font-size: 3vw; 
 }
 
-nav {
-  font-family: "Zen Dots", sans-serif;
+.navbar {
   display: flex;
-  flex-direction: row;
-  align-content: center;
- 
+  align-items: center;
+  font-size: 2vw;
+}
+
+a:link{
+  margin: 1vw;
+  padding-right: 3vw;
+  font-family: "Zen Dots", sans-serif;
+  color: #fffffe;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a7a9be;
+}
+
+a:hover {
+  color: #ff8906;
+}
+
+a:active {
+ color: #e53170;
 }
 
 h1 {

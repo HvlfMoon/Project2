@@ -24,7 +24,7 @@
 }
 
 html {
-  color: #222;
+  color: white;
   line-height: 1.4;
   font-size: 30px;
 }
@@ -110,3 +110,24 @@ h2 {
   padding-top: 42%;
 }
 
+.ArticleNav {
+  font-family:"Josefin Sans", sans-serif; 
+  color: #fffffe;
+  font-size: 1.5vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+}
+
+.InThis {
+  font-size: 3vw;
+  Font-weight: 300;
+  font-style: italic;
+  margin: 1vw;
+}
+
+.JumpTo {
+  display: flex;
+  flex-direction: columns;
+  font-size: 2vw;
+  
+}

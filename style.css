@@ -21,6 +21,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -41,6 +42,7 @@ body {
 }
 
 h4 {
+  color: #ff8906;
   font-size: 4vw;
   padding-left: 2vw
 }
@@ -97,10 +99,8 @@ h2 {
 .MainTitle {
   font-family: "Josefin Sans", sans-serif;
   color: #fffffe;
-  width: 450px;
   position: absolute;
   width: 50%;
-  height: 100%;
   padding-left: 2vw;
 }
 
@@ -129,7 +129,6 @@ h2 {
   font-size: 3vw;
   Font-weight: 400;
   font-style: italic;
-  margin: 1vw;
 }
 
 .JumpTo {
@@ -147,14 +146,25 @@ h2 {
   
 }
 
+.aquanaut2 {
+  padding-top: 3vw
+}
+
 .Image1 {
   float: right;
   width: 40vw;
   height: 50vh;
-  margin: 1vw
+  padding-right: 4vw;
 }
 
 p {
   line-height: 1.5rem;
   margin: 2vw;
+}
+
+.image2 {
+  float: right;
+   width: 50vw;
+  height: 60vh;
+  margin: 1vw
 }

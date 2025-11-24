@@ -44,7 +44,8 @@ body {
 h4 {
   color: #ff8906;
   font-size: 4vw;
-  padding-left: 2vw
+  padding-left: 2vw;
+  padding-top: 4vw;
 }
 
 .logo {
@@ -100,7 +101,7 @@ h2 {
   font-family: "Josefin Sans", sans-serif;
   color: #fffffe;
   position: absolute;
-  width: 50%;
+  width: 60%;
   padding-left: 2vw;
 }
 
@@ -154,7 +155,7 @@ h2 {
   float: right;
   width: 40vw;
   height: 50vh;
-  padding-right: 4vw;
+  Margin: 2vw;
 }
 
 p {
@@ -164,7 +165,11 @@ p {
 
 .image2 {
   float: right;
-   width: 50vw;
-  height: 60vh;
-  margin: 1vw
+  width: 40vw;
+  height: 50vh;
+  Margin: 2vw;
+}
+
+.aquanaut4 {
+  MArgin: 2vw;
 }

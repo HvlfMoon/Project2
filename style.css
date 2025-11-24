@@ -37,7 +37,7 @@ header {
 
 body {
   background-color: #0f0e17;
-  font-size: 16px;
+  font-size: 25px;
   font-family: "Inter", sans-serif;
 }
 
@@ -153,23 +153,27 @@ h2 {
 
 .Image1 {
   float: right;
-  width: 40vw;
-  height: 50vh;
-  Margin: 2vw;
+  object-fit: contain;
+  margin: 2vw;
 }
 
 p {
-  line-height: 1.5rem;
+  line-height: 3rem;
   margin: 2vw;
 }
 
 .image2 {
   float: right;
-  width: 40vw;
-  height: 50vh;
-  Margin: 2vw;
+  object-fit: contain;
+  margin: 2vw;
 }
 
-.aquanaut4 {
-  MArgin: 2vw;
+.image3 {
+  float: right;
+  object-fit: contain;
+  margin: 2vw;
+}
+
+footer {
+  
 }

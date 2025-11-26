@@ -29,17 +29,23 @@ html {
   line-height: 1.4;
 }
 
+body {
+  background-color: #fffffe;
+  font-size: 1.5vw;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  line-height: 3rem;
+  margin: 2vw;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   background-color: #0f0e17;
 }
 
-body {
-  background-color: #fffffe;
-  font-size: 1.5vw;
-  font-family: "Inter", sans-serif;
-}
 
 h4 {
   color: #d97403;
@@ -138,17 +144,22 @@ h2 {
   text-decoration: underline;
 }
 
+.aquanaut2 {
+  padding-top: 3vw
+}
+
 .pullquote {
   font-size: 3rem;
   padding: 7vw;
   line-height: 4rem;
 }
+
+.quote {
+  color: #094067;
+}
 .quoted {
   font-weight:200;
   font-size: 2vw;
-}
-.aquanaut2 {
-  padding-top: 3vw
 }
 
 .Image1 {
@@ -157,10 +168,6 @@ h2 {
   margin: 2vw;
 }
 
-p {
-  line-height: 3rem;
-  margin: 2vw;
-}
 
 .image2 {
   float: right;
@@ -266,6 +273,10 @@ html{
   font-size: 6vw;
   line-height: 1.5;
 }
+
+  .quote {
+    color: #fffffe;
+  }
 .quoted {
   font-weight:200;
   font-size: 4vw;

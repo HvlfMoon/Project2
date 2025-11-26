@@ -190,6 +190,7 @@ footer {
 .contact {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .sources {

@@ -197,12 +197,25 @@ html{
     color: #fffffe;
   }
 
+  header {
+    background-color: #232946;
+  }
+
+  .navbar {
+    font-size: 3.5vw
+  }
+
   body {
   background-color: #0f0e17;
   }
   
   main {
   font-size: 4.5vw;
+  }
+  
+  h3 {
+    font-size: 7vw;
+    margin: 2vw;
   }
 
   h4 {
